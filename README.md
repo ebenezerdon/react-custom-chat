@@ -1,9 +1,10 @@
 # react-custom-chat
 
-`react-custom-chat` is a free and fully customizable chat window that can be easily included in any project.
+react-custom-chat is a free and fully customizable chat window that can be easily included in any project.
 
 ![Demo gif of react-custom-chat being used](https://user-images.githubusercontent.com/43746609/116437983-ea2d9e00-a845-11eb-8297-272ee0eb00d2.gif)
 
+### [Link to Repository](https://github.com/ebenezerdon/react-custom-chat.git)
 ## [Demo](https://github.com/ebenezerdon/react-custom-chat)
 
 ## Table of Contents
@@ -61,6 +62,7 @@ const App = () => {
 | messageList      | array | yes | an array of objects for your messages. See message object [here](#message-object) |
 | onSendMessage           | boolean | yes | Force the open/close state of the chat window. If this is not set, it will open and close when clicked. |
 
+
 ### Settings properties:
 
 | property | type | description |
@@ -87,4 +89,4 @@ and a `text` property which contains the message text.
 
 ## Using react-custom-chat? Let's talk
 
-If you're using react-custom-chat, I'd love to see what you're building! Send me a message on [LinkedIn](https://linkedin.com/in/ebenezerdon)!
+If you're using react-custom-chat, I'd love to see what you're building! Send me a mail <ebenezerdon.official@gmail.com>
