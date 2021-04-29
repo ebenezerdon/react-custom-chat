@@ -1,6 +1,6 @@
 {
   "name": "react-custom-chat",
-  "version": "0.5.6",
+  "version": "0.5.7",
   "description": "a free and fully customizable chat window that can be easily included in any project",
   "main": "dist/index.js",
   "scripts": {
