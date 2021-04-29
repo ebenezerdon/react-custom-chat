@@ -76,7 +76,7 @@ const App = () => {
 
 ### Message Object
 
-Is message is styled differently depending on its type. Currently, only text is supported.
+Each message is styled differently depending on its type. Currently, only text is supported.
 Each message object has a `person` property which can have the value 'primary' or 'secondary',
 and a `text` property which contains the message text.
 
