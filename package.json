@@ -11,6 +11,10 @@
   },
   "author": "Ebenezer Don",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ebenezerdon/react-custom-chat.git"
+  },
   "peerDependencies": {
     "react": "^16.9.0",
     "react-dom": "^16.9.0"
