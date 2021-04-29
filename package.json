@@ -1,6 +1,6 @@
 {
   "name": "react-custom-chat",
-  "version": "0.5.7",
+  "version": "0.5.8",
   "description": "a free and fully customizable chat window that can be easily included in any project",
   "main": "dist/index.js",
   "scripts": {
@@ -9,6 +9,7 @@
     "build": "webpack --mode production",
     "deploy": "webpack --config publish.config.js --mode production && npm publish"
   },
+  "keywords": ["react", "chat", "chat widget", "chat window", "intercom", "react custom chat", "hooks", "functional react"],
   "author": "Ebenezer Don",
   "license": "ISC",
   "repository": {
