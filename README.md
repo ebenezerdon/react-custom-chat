@@ -60,7 +60,8 @@ const App = () => {
 |------------------|--------|----------|-------------|
 | settings     | [object](#settings-properties) | no | You can use this prop to define custom settings for your chat window. |
 | messageList      | array | yes | an array of objects for your messages. See message object [here](#message-object) |
-| onSendMessage           | boolean | yes | Force the open/close state of the chat window. If this is not set, it will open and close when clicked. |
+| isOpen           | boolean | yes | Forces the open/close state of the chat window. If this is not set, it will be closed by default, and open when the chat icon is clicked. |
+| onSendMessage    | function | yes | The function's first parameter will be the message from the input field. see [example](#Example) for usage.
 
 
 ### Settings properties:
