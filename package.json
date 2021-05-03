@@ -1,6 +1,6 @@
 {
   "name": "react-custom-chat",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "description": "a free and fully customizable chat window that can be easily included in any project",
   "main": "dist/index.js",
   "scripts": {
@@ -9,7 +9,16 @@
     "build": "webpack --mode production",
     "deploy": "webpack --config publish.config.js --mode production && npm publish"
   },
-  "keywords": ["react", "chat", "chat widget", "chat window", "intercom", "react custom chat", "hooks", "functional react"],
+  "keywords": [
+    "react",
+    "chat",
+    "chat widget",
+    "chat window",
+    "intercom",
+    "react custom chat",
+    "hooks",
+    "functional react"
+  ],
   "author": "Ebenezer Don",
   "license": "ISC",
   "repository": {
@@ -17,8 +26,8 @@
     "url": "https://github.com/ebenezerdon/react-custom-chat.git"
   },
   "peerDependencies": {
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0"
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
   "devDependencies": {
     "@babel/cli": "^7.5.5",
@@ -28,8 +37,8 @@
     "babel-loader": "^8.0.6",
     "css-loader": "^5.2.4",
     "html-webpack-plugin": "^3.2.0",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "style-loader": "^2.0.0",
     "svg-url-loader": "^7.1.1",
     "webpack": "^4.39.3",
