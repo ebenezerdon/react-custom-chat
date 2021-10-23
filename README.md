@@ -71,7 +71,7 @@ const App = () => {
 | position | string | This indicates the position of your chat window. Value can be `left` or `right`. Default is `right`. |
 | navColor | string | You can use this to customize your NavColor |
 | primaryColor | string | Use this to define the primary user color. You can choose from 'green', 'red', 'blue', etc... |
-| secondaryColor | string | Use this to define the primary user color. You can choose from 'green', 'red', 'blue', etc... |
+| secondaryColor | string | Use this to define the secondary user color. You can choose from 'green', 'red', 'blue', etc... |
 | navText | string | This is the text that shows up on the chat window header. The Default is 'Jane Doe'|
 
 
